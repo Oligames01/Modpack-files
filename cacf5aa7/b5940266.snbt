@@ -1,0 +1,15 @@
+{
+	title: "Quests Part One, Two...",
+	x: 1.0d,
+	y: 0.0d,
+	text: [
+		"The quests are labled as \"Parts\" this does not mean they have to be completed in any specific order, Follow quests as you wish"
+	],
+	dependencies: [
+		"f3c7da0e"
+	],
+	tasks: [{
+		uid: "45d87bf6",
+		type: "checkmark"
+	}]
+}

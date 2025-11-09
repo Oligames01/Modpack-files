@@ -1,0 +1,16 @@
+{
+	title: "Getting Stuck?",
+	x: 0.0d,
+	y: 1.0d,
+	text: [
+		"If you get stuck on any quests or wish to skip any, use the commant /ftbquests editing_mode true",
+		"This will allow you to auto complete any quests you wish to skip, it will also allow you to reset progress to any quests if needed"
+	],
+	dependencies: [
+		"f3c7da0e"
+	],
+	tasks: [{
+		uid: "ae0fc2c0",
+		type: "checkmark"
+	}]
+}

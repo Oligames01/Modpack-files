@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: 2.5d,
+	dependencies: [
+		"a0981184"
+	],
+	tasks: [{
+		uid: "d06b0dab",
+		type: "item",
+		items: [{
+			item: "bloodmagic:arcane_ashes"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "988837c3",
+		type: "item",
+		item: "lootbags:itemlootbag"
+	}]
+}

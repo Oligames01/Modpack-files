@@ -1,0 +1,20 @@
+{
+	x: 4.5d,
+	y: -3.5d,
+	dependencies: [
+		"a3a595dd"
+	],
+	tasks: [{
+		uid: "bb6c8f03",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_diviner"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e2d5d19b",
+		type: "item",
+		item: "lootbags:itemlootbag 1 1"
+	}]
+}

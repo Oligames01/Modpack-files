@@ -1,0 +1,24 @@
+{
+	title: "Welcome",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Welcome to Project: Delta-Zero",
+		"This will be the start of your journey through many mods and different aspects of minecraft!"
+	],
+	tasks: [{
+		uid: "97f51de3",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "d1906803",
+		type: "item",
+		item: "minecraft:cooked_beef",
+		count: 5
+	},
+	{
+		uid: "c601eea5",
+		type: "item",
+		item: "ftbquests:book"
+	}]
+}
