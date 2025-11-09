@@ -1,0 +1,19 @@
+{
+	x: -12.5d,
+	y: -2.0d,
+	dependencies: [
+		"1b1a0e84"
+	],
+	tasks: [{
+		uid: "0adde9a9",
+		type: "item",
+		items: [{
+			item: "extracells:storage.component"
+		}]
+	}],
+	rewards: [{
+		uid: "77b60fd4",
+		type: "item",
+		item: "appliedenergistics2:material 1 38"
+	}]
+}

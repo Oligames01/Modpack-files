@@ -1,0 +1,39 @@
+{
+	x: 3.0d,
+	y: 1.0d,
+	dependencies: [
+		"0b59cf68"
+	],
+	tasks: [{
+		uid: "2e4a682b",
+		type: "kill",
+		icon: "twilightforest:trophy 1 5",
+		entity: "twilightforest:snow_queen",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "eeec7ca9",
+		type: "item",
+		item: "lootbags:itemlootbag 1 4"
+	},
+	{
+		uid: "274a5bd8",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "dd89d042",
+		type: "item",
+		item: {
+			id: "twilightforest:shader",
+			tag: {
+				shader_type: "Snow Queen"
+			}
+		}
+	},
+	{
+		uid: "53f817c0",
+		type: "item",
+		item: "twilightforest:maze_map_focus"
+	}]
+}

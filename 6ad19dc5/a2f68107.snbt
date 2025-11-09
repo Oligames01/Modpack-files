@@ -1,0 +1,32 @@
+{
+	x: 4.0d,
+	y: -4.0d,
+	dependencies: [
+		"d16b621e"
+	],
+	tasks: [{
+		uid: "7db4c0de",
+		type: "item",
+		items: [{
+			item: "extrautils2:chickenring 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5fc0ac36",
+		type: "item",
+		item: "minecraft:cooked_fish",
+		count: 16
+	},
+	{
+		uid: "cdf37e7d",
+		type: "item",
+		item: "minecraft:dye",
+		count: 16
+	},
+	{
+		uid: "f5264e19",
+		type: "item",
+		item: "lootbags:itemlootbag 1 1"
+	}]
+}

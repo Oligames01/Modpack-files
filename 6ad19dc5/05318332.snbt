@@ -1,0 +1,15 @@
+{
+	title: "Applied Energystics 2",
+	x: -2.0d,
+	y: -2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"3bb56c94"
+	],
+	tasks: [{
+		uid: "eec0f6af",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	title: "Age Of Technology",
+	x: 1.0d,
+	y: -2.0d,
+	text: [
+		"Welcome to the Age of technology, these quests will help guide you through a few different technology focused mods, not all tech mods will have questsbut there will be some to help guide you through them"
+	],
+	tasks: [{
+		uid: "c4440aae",
+		type: "checkmark"
+	}]
+}

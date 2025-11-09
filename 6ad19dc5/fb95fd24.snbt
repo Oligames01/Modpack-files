@@ -1,0 +1,25 @@
+{
+	title: "Quest One (hint at whats to come)",
+	x: 4.0d,
+	y: -2.0d,
+	dependencies: [
+		"10356cb7"
+	],
+	tasks: [{
+		uid: "cffcbf1f",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame"
+		}]
+	}],
+	rewards: [{
+		uid: "bbe51edd",
+		type: "item",
+		item: "thermalfoundation:wrench"
+	},
+	{
+		uid: "f9451c03",
+		type: "item",
+		item: "lootbags:itemlootbag"
+	}]
+}

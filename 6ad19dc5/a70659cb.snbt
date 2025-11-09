@@ -1,0 +1,32 @@
+{
+	title: "Lunar Power",
+	x: 3.0d,
+	y: -8.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"b2a12cc0",
+		"5336a8c3",
+		"01bc447d"
+	],
+	tasks: [{
+		uid: "e11ca797",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 1"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "dadee5d7",
+		type: "item",
+		item: "extrautils2:ingredients",
+		count: 4
+	},
+	{
+		uid: "3214ed45",
+		type: "item",
+		item: "lootbags:itemlootbag 1 1"
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 8.0d,
+	y: -8.0d,
+	dependencies: [
+		"c8a7d2a2"
+	],
+	tasks: [{
+		uid: "c1491cd5",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "6ccbb4a4",
+		type: "item",
+		item: "minecraft:lava_bucket"
+	}]
+}

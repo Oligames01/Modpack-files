@@ -1,0 +1,19 @@
+{
+	x: -3.5d,
+	y: -0.5d,
+	dependencies: [
+		"b3f0da6d"
+	],
+	tasks: [{
+		uid: "6568ba7d",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:sky_compass"
+		}]
+	}],
+	rewards: [{
+		uid: "9f49e744",
+		type: "item",
+		item: "lootbags:itemlootbag"
+	}]
+}

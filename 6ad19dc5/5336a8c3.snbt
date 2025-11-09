@@ -1,0 +1,25 @@
+{
+	x: 3.5d,
+	y: -7.5d,
+	dependencies: [
+		"b2a12cc0"
+	],
+	tasks: [{
+		uid: "847b8981",
+		type: "item",
+		items: [{
+			item: "extrautils2:resonator"
+		}]
+	}],
+	rewards: [{
+		uid: "034d7c06",
+		type: "item",
+		item: "extrautils2:ingredients",
+		count: 8
+	},
+	{
+		uid: "de2e95eb",
+		type: "item",
+		item: "lootbags:itemlootbag 1 1"
+	}]
+}

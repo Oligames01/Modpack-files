@@ -1,0 +1,40 @@
+{
+	x: 1.5d,
+	y: 1.0d,
+	dependencies: [
+		"383535cf"
+	],
+	tasks: [{
+		uid: "b8ccaf82",
+		type: "kill",
+		icon: "twilightforest:trophy 1 6",
+		entity: "twilightforest:minoshroom",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "5592963c",
+		type: "item",
+		item: "lootbags:itemlootbag 1 4"
+	},
+	{
+		uid: "c3b5d8b0",
+		type: "item",
+		item: "twilightforest:meef_stroganoff",
+		count: 8
+	},
+	{
+		uid: "b7e8a3bd",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "117222a6",
+		type: "item",
+		item: {
+			id: "twilightforest:shader",
+			tag: {
+				shader_type: "Minoshroom"
+			}
+		}
+	}]
+}
