@@ -1,0 +1,40 @@
+{
+	x: 3.0d,
+	y: 2.5d,
+	dependencies: [
+		"539cfcfa"
+	],
+	tasks: [{
+		uid: "83ca4fb8",
+		type: "kill",
+		icon: "twilightforest:alpha_fur",
+		entity: "twilightforest:yeti_alpha",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "fac90a40",
+		type: "item",
+		item: "lootbags:itemlootbag 1 4"
+	},
+	{
+		uid: "a347fac3",
+		type: "item",
+		item: "twilightforest:alpha_fur",
+		count: 8
+	},
+	{
+		uid: "c0d32a07",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "1d445de1",
+		type: "item",
+		item: {
+			id: "twilightforest:shader",
+			tag: {
+				shader_type: "Alpha Yeti"
+			}
+		}
+	}]
+}

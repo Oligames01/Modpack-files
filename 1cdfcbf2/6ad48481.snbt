@@ -1,0 +1,40 @@
+{
+	x: 0.0d,
+	y: 1.0d,
+	dependencies: [
+		"ecc802a6"
+	],
+	tasks: [{
+		uid: "887ceabc",
+		type: "kill",
+		icon: "twilightforest:trophy 1 2",
+		entity: "twilightforest:hydra",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "aecb82c0",
+		type: "item",
+		item: "lootbags:itemlootbag 1 4"
+	},
+	{
+		uid: "704668cb",
+		type: "item",
+		item: "twilightforest:hydra_chop",
+		count: 8
+	},
+	{
+		uid: "a0f8dfbe",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "a3811ebf",
+		type: "item",
+		item: {
+			id: "twilightforest:shader",
+			tag: {
+				shader_type: "Hydra"
+			}
+		}
+	}]
+}

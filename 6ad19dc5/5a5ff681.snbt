@@ -1,0 +1,25 @@
+{
+	x: 5.5d,
+	y: -5.0d,
+	dependencies: [
+		"b7073db5"
+	],
+	tasks: [{
+		uid: "6f7aaee9",
+		type: "item",
+		items: [{
+			item: "extrautils2:goldenlasso 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ea12963b",
+		type: "item",
+		item: "extrautils2:goldenlasso"
+	},
+	{
+		uid: "bec18df6",
+		type: "item",
+		item: "lootbags:itemlootbag 1 1"
+	}]
+}

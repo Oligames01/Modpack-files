@@ -1,0 +1,22 @@
+{
+	x: -8.0d,
+	y: -1.0d,
+	dependencies: [
+		"4f6f3086"
+	],
+	tasks: [{
+		uid: "0bc83fde",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:storage_cell_4k",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0742781b",
+		type: "item",
+		item: "lootbags:itemlootbag 1 1"
+	}]
+}

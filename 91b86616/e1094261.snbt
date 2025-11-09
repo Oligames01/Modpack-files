@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: 4.5d,
+	dependencies: [
+		"50d1fafb"
+	],
+	tasks: [{
+		uid: "c5ba0252",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_core"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "67094c85",
+		type: "item",
+		item: "draconicevolution:draconium_ingot",
+		count: 4
+	},
+	{
+		uid: "220a5d2f",
+		type: "item",
+		item: "lootbags:itemlootbag 1 1"
+	}]
+}

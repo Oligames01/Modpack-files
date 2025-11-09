@@ -1,0 +1,26 @@
+{
+	x: 2.5d,
+	y: -4.0d,
+	dependencies: [
+		"b7073db5"
+	],
+	tasks: [{
+		uid: "6c6c6f89",
+		type: "item",
+		items: [{
+			item: "extrautils2:chickenring"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3553ea75",
+		type: "item",
+		item: "minecraft:cooked_chicken",
+		count: 16
+	},
+	{
+		uid: "ac2acd5b",
+		type: "item",
+		item: "lootbags:itemlootbag 1 1"
+	}]
+}

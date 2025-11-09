@@ -1,0 +1,32 @@
+{
+	x: 5.5d,
+	y: -4.0d,
+	dependencies: [
+		"a2f68107",
+		"5a5ff681"
+	],
+	tasks: [{
+		uid: "b397e34f",
+		type: "item",
+		items: [{
+			item: "extrautils2:angelring"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7abab592",
+		type: "item",
+		item: "minecraft:ghast_tear",
+		count: 16
+	},
+	{
+		uid: "c459323e",
+		type: "item",
+		item: "lootbags:itemlootbag 1 4"
+	},
+	{
+		uid: "2821719f",
+		type: "item",
+		item: "cyclicmagic:heart_food"
+	}]
+}

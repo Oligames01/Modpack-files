@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	text: [
+		"These quests will guide you through the twilight forest bosses"
+	],
+	tasks: [{
+		uid: "bac58cb9",
+		type: "checkmark",
+		title: "Welcome to the Twilight Forest"
+	}],
+	rewards: [{
+		uid: "d300acc3",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}
