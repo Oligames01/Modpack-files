@@ -1,7 +1,0 @@
-{
-	title: "Collections (WiP*)",
-	icon: "lootr:lootr_chest",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}
