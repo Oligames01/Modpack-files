@@ -1,7 +1,0 @@
-{
-	title: "Part Five - Witchcraft (WiP)",
-	icon: "bewitchment:pentacle",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}
