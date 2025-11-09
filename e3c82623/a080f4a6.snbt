@@ -1,0 +1,22 @@
+{
+	x: -3.0d,
+	y: 4.0d,
+	dependencies: [
+		"2dfe802a"
+	],
+	tasks: [{
+		uid: "84a5226e",
+		type: "item",
+		items: [{
+			id: "bloodmagic:soul_gem",
+			tag: {},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "41e568c8",
+		type: "item",
+		item: "lootbags:itemlootbag 1 2"
+	}]
+}

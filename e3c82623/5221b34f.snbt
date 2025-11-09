@@ -1,0 +1,23 @@
+{
+	x: 7.5d,
+	y: -0.5d,
+	dependencies: [
+		"2b582e8d"
+	],
+	tasks: [{
+		uid: "63a08380",
+		type: "item",
+		items: [{
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:archmage"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "afa82e38",
+		type: "item",
+		item: "cyclicmagic:heart_food"
+	}]
+}

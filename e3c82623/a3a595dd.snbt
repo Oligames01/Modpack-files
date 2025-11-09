@@ -1,0 +1,76 @@
+{
+	title: "Rituals",
+	x: 4.5d,
+	y: -2.0d,
+	dependencies: [
+		"efdbef7d"
+	],
+	tasks: [{
+		uid: "80ccab70",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_controller"
+		}]
+	},
+	{
+		uid: "39c362e2",
+		type: "item",
+		items: [{
+			id: "bloodmagic:inscription_tool",
+			tag: {
+				uses: 10
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ca33e848",
+		type: "item",
+		items: [{
+			id: "bloodmagic:inscription_tool",
+			tag: {
+				uses: 10
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "73535ea5",
+		type: "item",
+		items: [{
+			id: "bloodmagic:inscription_tool",
+			tag: {
+				uses: 10
+			},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d14b71df",
+		type: "item",
+		items: [{
+			id: "bloodmagic:inscription_tool",
+			tag: {
+				uses: 10
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5a1fee04",
+		type: "item",
+		items: [{
+			item: "bloodmagic:activation_crystal"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0d6f8f85",
+		type: "item",
+		item: "lootbags:itemlootbag 1 3"
+	}]
+}
