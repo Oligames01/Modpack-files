@@ -1,0 +1,35 @@
+{
+	x: -0.5d,
+	y: 0.0d,
+	dependencies: [
+		"2632045d"
+	],
+	tasks: [{
+		uid: "ec4d6f2d",
+		type: "kill",
+		icon: "minecraft:bone",
+		entity: "minecraft:skeleton",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "73806292",
+		type: "item",
+		item: "minecraft:bone",
+		count: 64
+	},
+	{
+		uid: "11f808a2",
+		type: "item",
+		item: "lootbags:itemlootbag 1 4"
+	},
+	{
+		uid: "e84ec6eb",
+		type: "item",
+		item: {
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:skeleton"
+			}
+		}
+	}]
+}

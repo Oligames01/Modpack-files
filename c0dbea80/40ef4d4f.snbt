@@ -1,0 +1,37 @@
+{
+	title: "Getting Wood",
+	x: -5.5d,
+	y: -2.0d,
+	text: [
+		"The start to all minecraft"
+	],
+	dependencies: [
+		"84897795"
+	],
+	tasks: [{
+		uid: "fdee8b1f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			}
+		}],
+		count: 16L,
+		only_from_crafting: false
+	}],
+	rewards: [{
+		uid: "d62fcac7",
+		type: "item",
+		item: "minecraft:torch",
+		count: 8
+	}]
+}

@@ -1,0 +1,127 @@
+{
+	title: "Tinker's Tools",
+	icon: {
+		id: "tconstruct:pickaxe",
+		tag: {
+			StatsOriginal: {
+				AttackSpeedMultiplier: 1.0f,
+				MiningSpeed: 4.0f,
+				FreeModifiers: 3,
+				Durability: 20,
+				HarvestLevel: 1,
+				Attack: 3.0f
+			},
+			Stats: {
+				AttackSpeedMultiplier: 1.0f,
+				MiningSpeed: 4.0f,
+				FreeModifiers: 3,
+				Durability: 16,
+				HarvestLevel: 1,
+				Attack: 3.0f
+			},
+			Special: {
+				Categories: [
+					"aoe",
+					"harvest",
+					"tool"
+				]
+			},
+			TinkerData: {
+				Materials: [
+					"stone",
+					"stone",
+					"stone"
+				],
+				Modifiers: [
+					"toolleveling"
+				]
+			},
+			Modifiers: [{
+				identifier: "cheap",
+				color: -6710887,
+				level: 1
+			},
+			{
+				identifier: "cheapskate",
+				color: -6710887,
+				level: 1
+			},
+			{
+				identifier: "toolleveling",
+				color: 16777215,
+				level: 1
+			}],
+			Traits: [
+				"cheap",
+				"cheapskate",
+				"toolleveling"
+			]
+		}
+	},
+	x: -2.5d,
+	y: 1.0d,
+	text: [
+		"Tinker's tools can level up and gain modifiers for things like fortune and haste, parts can also be replaced for higher mining levels and faster block breaking"
+	],
+	dependencies: [
+		"8f66311e",
+		"b81d7def"
+	],
+	tasks: [{
+		uid: "5b9a3045",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "stone"
+			}
+		}]
+	},
+	{
+		uid: "c38cbda1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "partBinding",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any partBinding"
+				}
+			}
+		}]
+	},
+	{
+		uid: "7b4bfb9e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "partToolRod",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any partToolRod"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "392c0024",
+		type: "item",
+		item: "lootbags:itemlootbag 1 1"
+	},
+	{
+		uid: "8ffcabfb",
+		type: "item",
+		item: "minecraft:torch",
+		count: 16
+	}]
+}

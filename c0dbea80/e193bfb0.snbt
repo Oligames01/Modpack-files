@@ -1,0 +1,25 @@
+{
+	title: "Iron Age",
+	x: -2.5d,
+	y: -0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"7ce39c7f"
+	],
+	tasks: [{
+		uid: "97d58470",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "54e6a177",
+		type: "item",
+		item: "minecraft:iron_ore",
+		count: 2
+	}]
+}

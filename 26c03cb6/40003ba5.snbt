@@ -1,0 +1,40 @@
+{
+	x: 0.5d,
+	y: 0.0d,
+	dependencies: [
+		"2632045d"
+	],
+	tasks: [{
+		uid: "345cb93d",
+		type: "kill",
+		icon: "minecraft:rotten_flesh",
+		entity: "minecraft:zombie",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "1c6f8544",
+		type: "item",
+		item: "artifacts:everlasting_rotten_flesh"
+	},
+	{
+		uid: "9935cc3f",
+		type: "item",
+		item: "minecraft:rotten_flesh",
+		count: 64
+	},
+	{
+		uid: "533d2517",
+		type: "item",
+		item: "lootbags:itemlootbag 1 4"
+	},
+	{
+		uid: "84df0bc1",
+		type: "item",
+		item: {
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:zombie"
+			}
+		}
+	}]
+}

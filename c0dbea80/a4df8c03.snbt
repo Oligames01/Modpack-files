@@ -1,0 +1,38 @@
+{
+	title: "Mining World",
+	x: 5.0d,
+	y: -2.0d,
+	text: [
+		"The mining world is a superflat world which never gets dark, this can be very useful for other mods"
+	],
+	dependencies: [
+		"e5499ddc"
+	],
+	tasks: [{
+		uid: "70008136",
+		type: "item",
+		items: [{
+			item: "aroma1997sdimension:miningmultitool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ad528981",
+		type: "item",
+		items: [{
+			item: "aroma1997sdimension:portalframe"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "e29ae457",
+		type: "item",
+		item: "lootbags:itemlootbag 1 2"
+	},
+	{
+		uid: "a85a1c07",
+		type: "item",
+		item: "artifacts:night_vision_goggles"
+	}]
+}

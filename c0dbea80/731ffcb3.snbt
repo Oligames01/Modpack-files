@@ -1,0 +1,24 @@
+{
+	title: "Enchanting",
+	x: 2.0d,
+	y: -2.0d,
+	text: [
+		"Enchantments can't be applied to tinker's tools, however they can be applied to other tools and weapons as well as lots of different armor"
+	],
+	dependencies: [
+		"3d70e444",
+		"e5499ddc"
+	],
+	tasks: [{
+		uid: "27f5af78",
+		type: "item",
+		items: [{
+			item: "minecraft:enchanting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "4613a360",
+		type: "item",
+		item: "lootbags:itemlootbag 1 2"
+	}]
+}

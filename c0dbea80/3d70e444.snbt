@@ -1,0 +1,25 @@
+{
+	title: "Diamonds Oooo....",
+	x: 0.5d,
+	y: -0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"01a63c4f",
+		"8effe0d1"
+	],
+	tasks: [{
+		uid: "4b95af4e",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "cac2c0a3",
+		type: "item",
+		item: "minecraft:diamond_ore"
+	}]
+}

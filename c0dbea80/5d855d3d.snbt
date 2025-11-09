@@ -1,0 +1,26 @@
+{
+	title: "Diamond Chest",
+	x: 0.5d,
+	y: -2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"3d70e444",
+		"3cb4d0c3"
+	],
+	tasks: [{
+		uid: "0a744dbd",
+		type: "item",
+		items: [{
+			item: "ironchest:gold_diamond_chest_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5a59e939",
+		type: "item",
+		item: "lootbags:itemlootbag 1 2"
+	}]
+}

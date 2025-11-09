@@ -1,0 +1,90 @@
+{
+	title: "Tinker's Armor",
+	x: 3.5d,
+	y: 2.5d,
+	text: [
+		"Tinker's Armor can be upgrade similarly to tinker's tools, different modifiers can be applied and the armor can be leveled up",
+		"*Any material can be used in recipe*"
+	],
+	dependencies: [
+		"f084dd6b"
+	],
+	tasks: [{
+		uid: "f6372cba",
+		type: "item",
+		items: [{
+			id: "conarm:helmet_core",
+			tag: {
+				Material: "iron"
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c4826574",
+		type: "item",
+		items: [{
+			id: "conarm:chest_core",
+			tag: {
+				Material: "iron"
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0048baa4",
+		type: "item",
+		items: [{
+			id: "conarm:leggings_core",
+			tag: {
+				Material: "iron"
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1ef5a8db",
+		type: "item",
+		items: [{
+			id: "conarm:boots_core",
+			tag: {
+				Material: "iron"
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e8e77a3e",
+		type: "item",
+		items: [{
+			id: "conarm:armor_trim",
+			tag: {
+				Material: "iron"
+			}
+		}],
+		count: 4L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "46212b66",
+		type: "item",
+		items: [{
+			id: "conarm:armor_plate",
+			tag: {
+				Material: "iron"
+			}
+		}],
+		count: 4L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dccc2fb1",
+		type: "item",
+		item: "cyclicmagic:heart_food"
+	},
+	{
+		uid: "be830360",
+		type: "item",
+		item: "lootbags:itemlootbag 1 2"
+	}]
+}

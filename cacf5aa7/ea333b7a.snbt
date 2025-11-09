@@ -1,0 +1,20 @@
+{
+	title: "Loot Bags",
+	x: 0.0d,
+	y: -1.0d,
+	text: [
+		"Loot bags will be part of the reward system for a lot of quests,a lot of quests are still WiP, therefore these may change in the future"
+	],
+	dependencies: [
+		"f3c7da0e"
+	],
+	tasks: [{
+		uid: "f06040bb",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "f9be28a3",
+		type: "item",
+		item: "lootbags:itemlootbag"
+	}]
+}

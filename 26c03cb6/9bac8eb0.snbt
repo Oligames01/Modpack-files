@@ -1,0 +1,12 @@
+{
+	title: "Bosses",
+	x: -2.5d,
+	y: -1.0d,
+	dependencies: [
+		"d8c1fea7"
+	],
+	tasks: [{
+		uid: "010cf7b0",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 1.0d,
+	y: 1.0d,
+	text: [
+		"Quests Labled (WiP*) do have some quests available, however they are still under work and things may still change"
+	],
+	dependencies: [
+		"f3c7da0e"
+	],
+	tasks: [{
+		uid: "2a83ec13",
+		type: "checkmark",
+		title: "(WiP*)"
+	}]
+}

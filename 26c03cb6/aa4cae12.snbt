@@ -1,0 +1,25 @@
+{
+	x: -2.5d,
+	y: 1.0d,
+	dependencies: [
+		"9bac8eb0"
+	],
+	tasks: [{
+		uid: "03539757",
+		type: "kill",
+		icon: "minecraft:skull 1 1",
+		entity: "minecraft:wither",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "e2009e14",
+		type: "item",
+		item: "mysticalagriculture:crafting 1 4",
+		count: 4
+	},
+	{
+		uid: "543d7cdc",
+		type: "item",
+		item: "lootbags:itemlootbag 1 4"
+	}]
+}

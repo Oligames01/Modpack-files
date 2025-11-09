@@ -1,0 +1,28 @@
+{
+	title: "Diamond Mining Level",
+	x: 0.5d,
+	y: 1.0d,
+	text: [
+		"An iron sharpening kit will allow you to mine many more ores, including gold and diamond"
+	],
+	dependencies: [
+		"b78f4069",
+		"e193bfb0",
+		"7a6f63d0"
+	],
+	tasks: [{
+		uid: "5031df14",
+		type: "item",
+		items: [{
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "iron"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "c9c6d8d1",
+		type: "item",
+		item: "lootbags:itemlootbag 1 1"
+	}]
+}

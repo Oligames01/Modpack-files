@@ -1,0 +1,29 @@
+{
+	title: "Smelting",
+	x: -4.0d,
+	y: -0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"8f66311e"
+	],
+	tasks: [{
+		uid: "83536dff",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "edefbce8",
+		type: "item",
+		item: "minecraft:coal",
+		count: 4
+	},
+	{
+		uid: "a05fbdf5",
+		type: "item",
+		item: "lootbags:itemlootbag"
+	}]
+}
