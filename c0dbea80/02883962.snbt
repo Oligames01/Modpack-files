@@ -1,0 +1,57 @@
+{
+	title: "Tinker's Hammer",
+	x: 1.0d,
+	y: 4.0d,
+	text: [
+		"Tinker's Hammers allow you to mine in a 3x3, this can speed up the time it takes to get resources",
+		"*any material can be used for the parts to complete the quest*"
+	],
+	dependencies: [
+		"0294079b"
+	],
+	tasks: [{
+		uid: "617739e8",
+		type: "item",
+		items: [{
+			id: "tconstruct:hammer_head",
+			tag: {
+				Material: "iron"
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f974ae13",
+		type: "item",
+		items: [{
+			id: "tconstruct:large_plate",
+			tag: {
+				Material: "iron"
+			}
+		}],
+		count: 2L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cb4f5f55",
+		type: "item",
+		items: [{
+			id: "tconstruct:tough_tool_rod",
+			tag: {
+				Material: "iron"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6fee67a3",
+		type: "item",
+		item: "minecraft:cobblestone",
+		count: 32
+	},
+	{
+		uid: "87c24f2d",
+		type: "item",
+		item: "lootbags:itemlootbag 1 2"
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Dimentional Transport",
+	x: 3.5d,
+	y: -0.5d,
+	text: [
+		"Obsidian has special properties allowing you to go to the nether, this is the start of your dimentional travel"
+	],
+	dependencies: [
+		"3d70e444",
+		"f069e033"
+	],
+	tasks: [{
+		uid: "5cc7a4dc",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "a56afa78",
+		type: "item",
+		item: "lootbags:itemlootbag 1 1"
+	}]
+}

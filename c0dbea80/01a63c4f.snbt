@@ -1,0 +1,26 @@
+{
+	title: "Shiny Shiny",
+	x: -1.0d,
+	y: -0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"8effe0d1",
+		"e193bfb0"
+	],
+	tasks: [{
+		uid: "365d3c07",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ingot"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "5711cbf5",
+		type: "item",
+		item: "minecraft:gold_ore",
+		count: 2
+	}]
+}

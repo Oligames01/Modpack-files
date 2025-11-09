@@ -1,0 +1,23 @@
+{
+	title: "Iron Furnace",
+	x: -2.5d,
+	y: -3.5d,
+	text: [
+		"The more furnace is the most basic option for faster then vanilla smelting"
+	],
+	dependencies: [
+		"7ce39c7f"
+	],
+	tasks: [{
+		uid: "c038fbef",
+		type: "item",
+		items: [{
+			item: "morefurnaces:upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "5439c277",
+		type: "item",
+		item: "lootbags:itemlootbag"
+	}]
+}

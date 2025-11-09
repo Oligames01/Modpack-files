@@ -1,0 +1,22 @@
+{
+	title: "Getting Started",
+	x: -5.5d,
+	y: -3.5d,
+	text: [
+		"This tab will be your starting point for early game, be sure to look through all quests and enjoy the pack!"
+	],
+	tasks: [{
+		uid: "502abfe1",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "7377cbd7",
+		type: "item",
+		item: "minecraft:stone_axe"
+	},
+	{
+		uid: "4bdb706a",
+		type: "item",
+		item: "lootbags:itemlootbag"
+	}]
+}

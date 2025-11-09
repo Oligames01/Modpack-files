@@ -1,0 +1,20 @@
+{
+	x: 2.5d,
+	y: 0.0d,
+	dependencies: [
+		"87f7c95d"
+	],
+	tasks: [{
+		uid: "b5a0c525",
+		type: "item",
+		items: [{
+			item: "minecraft:coal"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "065d8b77",
+		type: "item",
+		item: "lootbags:itemlootbag"
+	}]
+}

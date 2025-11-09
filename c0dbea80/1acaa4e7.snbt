@@ -1,0 +1,24 @@
+{
+	title: "Diamond Furnace",
+	x: 0.5d,
+	y: -3.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"ef5723e4"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "c08ca40c",
+		type: "item",
+		items: [{
+			item: "morefurnaces:upgrade 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "9c1365e4",
+		type: "item",
+		item: "lootbags:itemlootbag 1 2"
+	}]
+}

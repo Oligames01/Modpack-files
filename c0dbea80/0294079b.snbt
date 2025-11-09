@@ -1,0 +1,32 @@
+{
+	x: 0.5d,
+	y: 2.5d,
+	text: [
+		"The Tool Forge will unlock more tinker's tools and weapons for you to create",
+		"*Any material can be used in recipe*"
+	],
+	dependencies: [
+		"b78f4069"
+	],
+	tasks: [{
+		uid: "8704894f",
+		type: "item",
+		items: [{
+			id: "tconstruct:toolforge",
+			tag: {
+				textureBlock: {
+					id: "minecraft:iron_block",
+					Count: 1b,
+					Damage: 0s
+				}
+			}
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}],
+	rewards: [{
+		uid: "92eb31c6",
+		type: "item",
+		item: "lootbags:itemlootbag 1 2"
+	}]
+}

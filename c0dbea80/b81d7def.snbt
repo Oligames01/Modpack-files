@@ -1,0 +1,80 @@
+{
+	title: "Tinker's Construct",
+	x: -5.5d,
+	y: 1.0d,
+	text: [
+		"These will be the basics for all tinkers tools and armor"
+	],
+	dependencies: [
+		"40ef4d4f"
+	],
+	tasks: [{
+		uid: "17c5e9c4",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:planks",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "dc32af08",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 4"
+		}]
+	},
+	{
+		uid: "7800b25d",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "d71f73de",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 3"
+		}]
+	},
+	{
+		uid: "7234035d",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables"
+		}]
+	},
+	{
+		uid: "5b79ff32",
+		type: "item",
+		items: [{
+			item: "conarm:armorstation"
+		}]
+	}],
+	rewards: [{
+		uid: "e5d66f43",
+		type: "item",
+		item: "tconstruct:pattern",
+		count: 16
+	},
+	{
+		uid: "9436a30a",
+		type: "item",
+		item: "lootbags:itemlootbag"
+	}]
+}

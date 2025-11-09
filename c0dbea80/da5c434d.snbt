@@ -1,0 +1,28 @@
+{
+	title: "Better Enchanting",
+	x: 2.0d,
+	y: -3.5d,
+	text: [
+		"The enchanting plus advanced enchantment table allows you to choose what enchantments to apply to your tools or armor"
+	],
+	dependencies: [
+		"731ffcb3"
+	],
+	tasks: [{
+		uid: "7c81d7bd",
+		type: "item",
+		items: [{
+			item: "eplus:advanced_table"
+		}]
+	}],
+	rewards: [{
+		uid: "e199b581",
+		type: "item",
+		item: "lootbags:itemlootbag 1 2"
+	},
+	{
+		uid: "ae3f8d70",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

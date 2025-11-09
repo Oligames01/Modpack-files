@@ -1,0 +1,25 @@
+{
+	x: 2.5d,
+	y: 6.0d,
+	dependencies: [
+		"87f7c95d"
+	],
+	tasks: [{
+		uid: "c2b7e895",
+		type: "item",
+		items: [{
+			item: "minecraft:emerald"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "f1843b73",
+		type: "item",
+		item: "lootbags:itemlootbag 1 3"
+	},
+	{
+		uid: "af588c0f",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

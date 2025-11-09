@@ -1,0 +1,67 @@
+{
+	title: "Tinker's Lumberaxe",
+	x: -1.0d,
+	y: 3.5d,
+	text: [
+		"Tinker's LumberAxe can be used to cut down trees in one go",
+		"*any material can be used for the parts to complete the quest*"
+	],
+	dependencies: [
+		"0294079b"
+	],
+	tasks: [{
+		uid: "2a57fb66",
+		type: "item",
+		items: [{
+			id: "tconstruct:broad_axe_head",
+			tag: {
+				Material: "iron"
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b44520be",
+		type: "item",
+		items: [{
+			id: "tconstruct:large_plate",
+			tag: {
+				Material: "iron"
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5d16d1e7",
+		type: "item",
+		items: [{
+			id: "tconstruct:tough_tool_rod",
+			tag: {
+				Material: "iron"
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6d111216",
+		type: "item",
+		items: [{
+			id: "tconstruct:tough_binding",
+			tag: {
+				Material: "iron"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5529eb62",
+		type: "item",
+		item: "minecraft:log",
+		count: 32
+	},
+	{
+		uid: "df9fff30",
+		type: "item",
+		item: "lootbags:itemlootbag"
+	}]
+}
